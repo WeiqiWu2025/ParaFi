@@ -1,4 +1,4 @@
-# Concurrent Backscatter Communication over WiFi: A Review and Future Perspectives
+# A Review on Concurrent Backscatter Communication over WiFi: Performance Comparison and Future Perspectives
 
 This repository contains the reproduction code for the Paper "Concurrent WiFi backscatter communication using a single receiver in IoT networks".
 
