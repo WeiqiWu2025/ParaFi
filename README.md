@@ -21,7 +21,7 @@ Taking file survey_ParaFi_Impact_of_backscatter_channel as an example, this file
     cfgHT.ChannelCoding = 'BCC'; % BCC channel coding
   + Set SNR, the number of concurrent tags, and the number of packets for each SNR level
     ```
-    snr = [0,5,15,25,35];
+    snr = [0,5,15,25];
     global numTags;
     numTags = 3;
     maxNumPackets = 5000;
