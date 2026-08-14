@@ -68,7 +68,7 @@ The repository consists of a funcs folder and executable MATLAB code files (in .
 - survey_ParaFi_Impact_of_backscatter_channel.m file corresponds to Fig. 5 in the manuscript.
 - survey_ParaFi_Impact_of_WiFi_transceiver_channel.m file corresponds to Fig. 6 in the manuscript.
 - survey_ParaFi_Impact_of_AS.m file corresponds to Fig. 7 in the manuscript.
-...
+- ...
 
 # License
 
