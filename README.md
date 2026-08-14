@@ -46,7 +46,7 @@ Taking file survey_ParaFi_Impact_of_backscatter_channel as an example, this file
 - **Tag modulation**: The tag performs the backscatter operation. When bit 1 is transmitted, it introduces a phase of $\pi$; otherwise, no phase is introduced.
   ```
   for tag_idx1 = 1:numTags
-    bxSig{tag_idx1} = survey_FreeCollision_funcBackscatter(exSig(:,tag_idx1),tagData(:,tag_idx1),1);
+    bxSig{tag_idx1} = survey_ParaFi_funcBackscatter(exSig(:,tag_idx1),tagData(:,tag_idx1),1);
   end
 - **Tag-to-receiver link**: The modulated signal then propagates through the tag-to-receiver channel to the receiver. The tag and the receiver are usually separated by a much larger distance, for which a multipath propagation model is more appropriate. Accordingly, we model the tag-to-receiver channel using MATLAB's built-in \emph{TGn Channel Model-B}, which captures the effects of indoor WiFi multipath propagation, CFO, and frequency selectivity.
   ```
@@ -65,9 +65,10 @@ Taking file survey_ParaFi_Impact_of_backscatter_channel as an example, this file
 
 # Repository Structure
 The repository consists of a funcs folder and executable MATLAB code files (in .m format). The functions in the funcs folder serve as function libraries required to support the execution of the .m files. All .m files can be executed directly in MATLAB R2021a.
-- survey_ParaFi_Impact_of_PSDU_length.m file corresponds to Fig. 6 in the manuscript.
-- survey_ParaFi_Impact_of_WiFi_transceiver_channel.m file corresponds to Fig. 8 in the manuscript.
-- survey_ParaFi_Impact_of_backscatter_channel.m file corresponds to Fig. 9 in the manuscript.
+- survey_ParaFi_Impact_of_backscatter_channel.m file corresponds to Fig. 5 in the manuscript.
+- survey_ParaFi_Impact_of_WiFi_transceiver_channel.m file corresponds to Fig. 6 in the manuscript.
+- survey_ParaFi_Impact_of_AS.m file corresponds to Fig. 7 in the manuscript.
+...
 
 # License
 
